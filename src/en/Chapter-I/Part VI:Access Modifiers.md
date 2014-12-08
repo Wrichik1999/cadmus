@@ -1,2 +1,0 @@
-Part VI: Access Modifiers
-=========================
