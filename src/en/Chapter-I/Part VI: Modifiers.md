@@ -34,3 +34,24 @@ class Foo{
   private String foobar = "FOOBAR"; //Can only be accessed by an instance of the Foo class
 }
 ```
+
+Protected
+---------
+A `protected` variable can only be accessed by a class in the same package.
+```java
+package foo;
+class Bar{
+  protected int = 0; // Can only be accessed by classes in the foo package
+  public void foobar(){}
+}
+```
+
+Final
+-----
+A `final` variable cannot be changed. It is `const`ant. It is the replacement of the `const` modifier. A `final` class cannot be ionherited.
+```java
+final class Foo{
+  final int bar = 1; // Cannot be changed
+  public String foobar = "foobar"; // Can be changed
+}
+```
