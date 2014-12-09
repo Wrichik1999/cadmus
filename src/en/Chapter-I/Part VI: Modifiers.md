@@ -55,3 +55,11 @@ final class Foo{
   public String foobar = "foobar"; // Can be changed
 }
 ```
+
+Abstract
+--------
+An `abstract` variable can only be in an abstract class. Abstract methods have to overriden as in they have to be rewritten if the class is tho extend an abstract class. Non-abstract variables can be declared in an abstract class as well. An abstract class can not be instantiated much like the System class.
+```java
+abstract class Hello{
+  abstract int world = 0
+}
