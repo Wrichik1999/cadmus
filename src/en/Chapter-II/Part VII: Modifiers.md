@@ -68,4 +68,4 @@ abstract class Hello{
 Static
 ------
 
-A `static` variable can be accessed without having to make an instance of the class. The same applies for methods
+A `static` variable can be accessed without having to make an instance of the class. The same applies for methods and even static nested classes. A static import allows to use static items without having to name their original class.
