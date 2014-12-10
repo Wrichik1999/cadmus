@@ -63,3 +63,9 @@ An `abstract` variable can only be in an abstract class. Abstract methods have t
 abstract class Hello{
   abstract int world = 0
 }
+```
+
+Static
+------
+
+A `static` variable can be accessed without having to make an instance of the class. The same applies for methods
