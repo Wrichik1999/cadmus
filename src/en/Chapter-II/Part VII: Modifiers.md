@@ -8,11 +8,8 @@ The variable modifiers are:
   * final
   * abstract
   * static
-  * synchronised
-  * volatile
   * native
   * const
-  * transient
 
 Public
 ------
@@ -69,3 +66,16 @@ Static
 ------
 
 A `static` variable can be accessed without having to make an instance of the class. The same applies for methods and even static nested classes. A static import allows to use static items without having to name their original class.
+```java
+static class Hello{
+    static int num = 0;
+    static void prints(String str){
+        System.out.println(str);
+    }
+}
+// Now we can call Hello.num or Hello.prints without having to make ans instance of the Hello class
+```
+
+Native
+------
+A `native` method is written in a different language to Java.
