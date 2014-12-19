@@ -8,9 +8,7 @@ The variable modifiers are:
   * final
   * abstract
   * static
-  * native
-  * const
-
+  * 
 Public
 ------
 Public is the default modifier. A `public` variable can be accessed by an class in any package.
@@ -75,7 +73,3 @@ static class Hello{
 }
 // Now we can call Hello.num or Hello.prints without having to make ans instance of the Hello class
 ```
-
-Native
-------
-A `native` method is written in a different language to Java.
